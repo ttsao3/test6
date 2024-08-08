@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hellow <%= session.username %></h1>
+    <h3>username: <%= session.user.username %></h3>
+    <h3>email: <%= session.user.email %></h3>
+    <h3>address: <%= session.user.address %></h3>
+    <h3>pincode: <%= session.user.pincode %></h3>
+    <a href="/logout">Logout</a>
+</body>
+</html>
